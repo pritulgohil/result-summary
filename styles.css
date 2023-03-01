@@ -41,6 +41,8 @@ box-shadow: 2px 11px 30px -11px rgba(0,0,0,0.75);
 @media (max-width: 600px) {
     .flex-container {
       flex-direction: column;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
     }
     body{
         margin-top:210px;
@@ -50,6 +52,10 @@ box-shadow: 2px 11px 30px -11px rgba(0,0,0,0.75);
   @media (max-width: 390px) {
     body {
         margin-top:250px;
+    }
+    .flex-container{
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
     }
   }
 
