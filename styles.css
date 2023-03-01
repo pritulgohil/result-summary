@@ -44,6 +44,12 @@ box-shadow: 2px 11px 30px -11px rgba(0,0,0,0.75);
     }
   }
 
+  @media (max-width: 390px) {
+    body {
+        margin-top:200px;
+    }
+  }
+
 .left{
     width:300px;
     background: linear-gradient(180deg,var(--light-slate-blue-background),var(--light-royal-blue-background));
